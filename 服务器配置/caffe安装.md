@@ -1,6 +1,8 @@
 # 1.  opencv
 一定要先安装opencv，由于CUDA10.0,因此选择opencv3.4.5(必须大于3.2) <br>
 https://blog.csdn.net/hhhuua/article/details/80436160 <br>
+注意不要少装依赖库，可以使用cmake-gui来编译  https://blog.csdn.net/qq_36275734/article/details/81158966  <br>
+其中IPPICV下载很慢，请耐心等待 <br>
 先安装依赖库，注意编译时python路径<br>
 cmake
 make -j8
